@@ -1,5 +1,29 @@
 <svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+@keyframes blink {
+    0% {opacity: 0;}
+    2% {opacity: 1;}
+    4% {opacity: 0;}
+    6% {opacity: 1;}
+    9% {opacity: 0;}
+    13% {opacity: 1;}
+    18% {opacity: 0;}
+    28% {opacity: 1;}
+    34% {opacity: 0;}
+    43% {opacity: 1;}
+    58% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.t-1 {
+    animation: blink 3.2s;
+    animation-delay: 1s;
+}
+.t-2 {
+    animation: blink 2.9s;
+    animation-delay: 1s;
+}
+</style>
 <rect width="1920" height="1080" fill="black"/>
-<path d="M383.92 771.75L635.5 336L887.08 771.75H383.92Z" stroke="white" stroke-width="33"/>
-<path d="M1030.92 319.659L1534.08 319.659L1282.5 755.409L1030.92 319.659Z" stroke="white" stroke-width="33"/>
+<path class="t-1" d="M383.92 771.75L635.5 336L887.08 771.75H383.92Z" stroke="white" stroke-width="33"/>
+<path class="t-2" d="M1030.92 319.659L1534.08 319.659L1282.5 755.409L1030.92 319.659Z" stroke="white" stroke-width="33"/>
 </svg>
